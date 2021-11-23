@@ -12,20 +12,20 @@ Question-two :
 
 -Linux Administration
 
-Our company has made in-house application to track all of employee performance. But the specs of the server itself put on the mininum specification, so we must pointing every users to access the server which has least connection. so we setup another VM to run NGINX as our load balancer as a service and here IP address of server application and the link to access to the application.
+Our company has made in-house application to track all of employee performance. But the specs of the server itself put on the mininum specification, so we must pointing every users to access the server which has least connection. so we setup another VM to run HAProxy as our load balancer/reverse as a service and here IP address of server application and the link to access to the application.
 
 - appservern1 : 10.10.1.1
 - appservern2 : 10.10.1.2
 - url : https://lb-application.com
 
 ```
-Please provide file of /etc/nginx/nginx.conf to do the the job
+Please provide file of /etc/haproxy/haproxy.cfg to do the the job
 ```
 *Note : the application must always access through https  
 
 Question-Three :
 
--Office 365
+-Zimbra
 
 Assuming you are O365 Administrator in our company, suddenly we have spam attack to our organization with this details below:
 ```
