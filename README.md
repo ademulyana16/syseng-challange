@@ -34,9 +34,9 @@ Assuming you are Zimbra Administrator in our company, suddenly we have spam atta
 - to : all member
 ```
 
-To prevent it we should recall all the spam email from every mailbox. But, before we do that other O365 admin already search all the spam email using content search with "20211110_corpinfo" as a name
+To prevent it we should recall all the spam email from every mailbox. But, before we do that other Zimbra admin already search all the spam email using content search with "20211110_corpinfo" as a name
 
 ```
 a. Tell us step-by-step to prevent that spam attack appear again in our mailbox
-b. Please provide powershell script to recall the spam mail from every mailbox
+b. Please provide shell script to recall the spam mail from every mailbox
 ```
